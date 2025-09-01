@@ -1,6 +1,6 @@
 # 🚍 SGT-Transportes  
 
-<img src="assets/sgt.png" alt="SGT-Transportes" width="600"/>  
+<img src="assets/Sgt.png" alt="SGT-Transportes" width="600"/>  
 
 Sistema desenvolvido para **gestão de transportes escolares**, permitindo que os **pais e responsáveis** tenham controle e acompanhamento sobre o transporte de seus filhos.  
 
