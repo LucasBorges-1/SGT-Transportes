@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Busão Escolar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="login-page">
+
+    <div class="login-container">
+        <div class="login-box">
+            <a href="index.html" class="logo-link-login">
+                <img src="logo.png" alt="Logo Busão Escolar" class="logo">
+                <span>SGT-Transportes</span>
+            </a>
+            <h2>Bem-vindo de volta!</h2>
+            <p>Faça login para acessar sua conta.</p>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" placeholder="Sua senha" required>
+                </div>
+                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                <button type="submit" class="btn btn-primary btn-full">Entrar</button>
+            </form>
+            <div class="divider">ou</div>
+            <button class="btn-google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo">
+                Entrar com Google
+            </button>
+            <p class="signup-link">
+                Não tem uma conta? <a href="#">Cadastre-se</a>
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        // Simulate login
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // In a real app, you'd perform authentication here
+            window.location.href = 'dashboard.html';
+        });
+    </script>
+</body>
+</html>
+
